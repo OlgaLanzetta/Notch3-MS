@@ -58,7 +58,7 @@ renv::restore()
 This will install the correct R packages and versions as used for the original analysis.
 
 > **Note:**  
-> The analysis was performed using R version 4.3.1  
+> The analysis was performed using R version 4.3.2  
 > For details about all package versions, please refer to the `renv.lock` file.
 
 ---
