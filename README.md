@@ -19,7 +19,7 @@ Analyses were performed using [Cellranger](https://www.10xgenomics.com/support/s
 
 ## Analysis Workflow
 
-1. **Pre-processing with Cellranger v. **
+1. **Pre-processing with Cellranger**
     - `cellranger count` — Quantification of gene expression for each individual sample.
     - `cellranger aggr` — Aggregation of multiple samples.
 
@@ -58,7 +58,7 @@ renv::restore()
 This will install the correct R packages and versions as used for the original analysis.
 
 > **Note:**  
-> The analysis was performed using R version 4.4.1  
+> The analysis was performed using R version 4.3.1  
 > For details about all package versions, please refer to the `renv.lock` file.
 
 ---
