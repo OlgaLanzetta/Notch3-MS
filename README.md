@@ -24,15 +24,15 @@ Analyses were performed using [Cellranger](https://www.10xgenomics.com/support/s
     - `cellranger aggr` — Aggregation of multiple samples.
 
 2. **Quality Control and Processing (Seurat)**
-    - See: `1_QC and processing.R`
+    - See: `/script/1_QC and processing.R`
     - Import filtered matrices, quality control, filtering, normalization, integration, and clustering.
 
 3. **Differential Gene Expression**
-    - See: `2_DE genes with pseudobulk.R`
+    - See: `/script/2_DE genes with pseudobulk.R`
     - Identification of differentially expressed genes using pseudobulk analysis.
 
 4. **Visualization and Figure Generation**
-    - See: `3_Plots.R`
+    - See: `/script/3_Plots.R`
     - Generation of all figures and plots included in the manuscript.
 
 ---
