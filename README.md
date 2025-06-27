@@ -19,7 +19,7 @@ Analyses were performed using [Cellranger](https://www.10xgenomics.com/support/s
 
 ## Analysis Workflow
 
-**Preliminary analysis with Cellranger**
+   **Preliminary analysis with Cellranger**
     - `cellranger count` — Quantification of gene expression for each individual sample.
     - `cellranger aggr` — Aggregation of multiple samples.
 
