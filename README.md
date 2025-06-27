@@ -40,7 +40,7 @@ Analyses were performed using [Cellranger](https://www.10xgenomics.com/support/s
 ## Data Availability
 
 - **Raw sequencing data:** Available at GEO/SRA: [GSE253602](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE253602)
-- **Processed Seurat object:** Available on [Zenodo](https://zenodo.org/) (DOI: ...)
+- **Processed Seurat object:** Available on [Zenodo](https://zenodo.org/) (DOI: 10.5281/zenodo.15747708)
 
 ---
 
