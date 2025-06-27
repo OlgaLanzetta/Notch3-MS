@@ -19,19 +19,19 @@ Analyses were performed using [Cellranger](https://www.10xgenomics.com/support/s
 
 ## Analysis Workflow
 
-1. **Pre-processing with Cellranger**
+**Preliminary analysis with Cellranger**
     - `cellranger count` — Quantification of gene expression for each individual sample.
     - `cellranger aggr` — Aggregation of multiple samples.
 
-2. **Quality Control and Processing (Seurat)**
+1. **Quality Control and Processing (Seurat)**
     - See: `/script/1_QC and processing.R`
     - Import filtered matrices, quality control, filtering, normalization, integration, and clustering.
 
-3. **Differential Gene Expression**
+2. **Differential Gene Expression**
     - See: `/script/2_DE genes with pseudobulk.R`
     - Identification of differentially expressed genes using pseudobulk analysis.
 
-4. **Visualization and Figure Generation**
+3. **Visualization and Figure Generation**
     - See: `/script/3_Plots.R`
     - Generation of all figures and plots included in the manuscript.
 
@@ -81,7 +81,7 @@ For Cellranger usage, refer to the [10x Genomics documentation](https://www.10xg
 
 ## Issues & Contact
 
-If you encounter any problems or have questions, please open an issue in this repository or contact Dr. Mehdi Benamar at [Mehdi.Benamar@childrens.harvard.edu](mailto:Mehdi.Benamar@childrens.harvard.edu).
+If you encounter any problems or have questions, please open an issue in this repository or contact Dr. Mehdi Benamar at [Mehdi.Benamar@childrens.harvard.edu](mailto:Mehdi.Benamar@childrens.harvard.edu) and Dr. Olga Lanzetta at [olga.lanzetta@edu.unige.it](mailto:olga.lanzetta@edu.unige.it)
 
 ---
 
