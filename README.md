@@ -27,11 +27,11 @@ Analyses were performed using [Cellranger](https://www.10xgenomics.com/support/s
     - See: `script/1_QC_and_processing.R`
     - Import filtered matrices, quality control, filtering, normalization, integration, and clustering.
 
-2. **Differential Gene Expression**
+2. **Differential Gene Expression (Seurat)**
     - See: `script/2_DE_genes_with pseudobulk.R`
     - Identification of differentially expressed genes using pseudobulk analysis.
 
-3. **Visualization and Figure Generation**
+3. **Visualization and Figure Generation (Seurat)**
     - See: `script/3_Plots.R`
     - Generation of all figures and plots included in the manuscript.
 
