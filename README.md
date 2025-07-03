@@ -13,19 +13,16 @@ _Benamar et al._
 ## Overview
 
 This repository collects the scripts for processing and analyzing single-cell RNA sequencing (scRNAseq) data as described in the manuscript.  
-Analyses were performed using [Cellranger](https://www.10xgenomics.com/support/software/cell-ranger/latest) (10x Genomics) and [Seurat](https://satijalab.org/seurat/) v4, with additional supporting R packages.
+Preliminary analyses were performed using [Cellranger](https://www.10xgenomics.com/support/software/cell-ranger/latest) (10x Genomics).
+The analysis workflow was performed using [Seurat](https://satijalab.org/seurat/) v4, with additional supporting R packages.
 
 ---
 
 ## Analysis Workflow
 
-0. **Preliminary analysis with Cellranger**
-    - `cellranger count` — Quantification of gene expression for each individual sample.
-    - `cellranger aggr` — Aggregation of multiple samples.
-
 1. **Quality Control and Processing (Seurat)**
     - See: `script/1_QC_and_processing.R`
-    - Import filtered matrices, quality control, filtering, normalization, integration, and clustering.
+    - Import filtered matrices from CellRanger, quality control, filtering, normalization, integration, and clustering.
 
 2. **Differential Gene Expression (Seurat)**
     - See: `script/2_DE_genes_with pseudobulk.R`
